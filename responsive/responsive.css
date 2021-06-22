@@ -73,6 +73,10 @@
     .contact-row {
         padding: 0 44px;
     }
+    .p-content {
+       
+        text-align: left;
+    }
 }
 @media all and (max-width:1200px) {
     .header-logo {
@@ -313,6 +317,14 @@
        
         text-align: left;
     }
+    .p-content ul li {
+      
+        font-size: 13px !important;
+    }
+    .p-content ul li span {
+   
+        width: 40px !important;
+    }
 }
 
 @media all and (max-width:803px) {
@@ -342,6 +354,12 @@
     .video-content-right {
         width: 100%;
     }
+    .p-content ul li {
+        font-size: 27px !important;
+        margin: 22px 0;
+      
+    }
+    
  
 }
 
